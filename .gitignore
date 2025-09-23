@@ -1,4 +1,5 @@
 .DS_Store
+config,php
 *.log
 vendor/
 composer.lock

@@ -1,6 +1,6 @@
 <?php
 $host = 'mysql';
-$dbname = 'task_manager';
+$dbname = 'recipes_catalog';
 $username = 'app_user';
 $password = 'app_password';
 

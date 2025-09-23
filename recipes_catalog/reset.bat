@@ -28,10 +28,6 @@ echo ========================================
 echo Система полностью переустановлена!
 echo ========================================
 echo.
-echo Проверка соединения...
-docker exec task_manager_app php -r "try { new PDO('mysql:host=mysql;dbname=task_manager', 'app_user', 'app_password'); echo 'Соединение с БД установлено!'; } catch(Exception \$e) { echo 'Ошибка: ' . \$e->getMessage(); }"
-
-echo.
 echo Приложение доступно по адресу:
 echo - PHP приложение: http://localhost:8000
 echo - phpMyAdmin: http://localhost:8081
